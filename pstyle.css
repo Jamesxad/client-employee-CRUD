@@ -1,0 +1,455 @@
+
+body{
+    position: relative;
+    background-image: url(corp.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    resize: none;
+
+}
+header h1{
+    font-size: 70px;
+    text-align: center;
+}
+header{
+    height: 150px;
+    top: 0;
+    width: 100%;
+        background-color: white;
+        color: black;
+        padding: 1rem;
+
+}
+footer{
+    align-items: center;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    background-color: rgb(37, 35, 34);
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}
+footer p:hover{
+    color: aqua;
+
+}
+header .totalreg{
+    left: 15;
+    top: 100px;
+    position: absolute;
+}
+header .totalreg span:hover{
+    color: rgb(37, 100, 194);
+}
+header .logout{
+    right: 30px;
+    top: 50px;
+    position: absolute;
+}
+header .showid{
+    float: left;
+    top: 50px;
+    position: absolute;
+}
+/*INDEX SIDE PANEL*/
+.cont-panel{
+    position:absolute;
+
+    background-color: rgba(239, 243, 243);
+    height: 100%;
+    width: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+  
+    
+}
+.cont-panel ul{
+    margin-right:20px ;
+    list-style: none;
+    
+}
+.cont-panel ul a{
+
+    
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+
+    
+}
+.cont-panel ul a:hover{
+    color: rgb(26, 136, 231);
+    transition: 0.3s;
+
+    font-weight: bold;
+}
+.cont-panel ul li{
+    margin-top: 25px;
+}
+.comt-panel span{
+    font-size: 20px;
+}
+.closebtn{
+   
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    float: right;
+}
+.obtn .openbtn{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+.mt-4{
+    text-align: center;
+}
+h1{
+    font-size: 10px;
+}
+table{
+    font-size: 15px;
+    
+}
+.btndex a {
+    margin: 10px;
+}
+header a{
+    top: 5px;
+    width: 0;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+
+header li{
+    margin-left: 15px;
+    list-style: none;
+}
+header ul{
+    
+    text-align: left;
+    display: flex;    
+}
+h4 a{
+    text-decoration: none;
+}
+a .addclient{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.addclient:hover{
+    color: rgb(228, 103, 26);
+
+}
+a .addclient:hover{
+    transform: scale(95%);
+}
+.listindex a{
+    position: relative;
+    font-size: 50px;
+}
+.listindex i span{
+    font-size: 20px;
+    position: absolute;
+}
+.cont_l{
+    margin-bottom: 15px;
+}
+
+/*LOGIN BOX*/
+.boxlog{
+    text-align: center;
+    color: whitesmoke;
+}
+.badmin{
+    background-color: black;
+
+    color: aliceblue;
+    
+    
+}
+
+
+input{
+    background-color: transparent;
+}
+input{
+    font-weight: bold;
+    text-align: center;
+   background: transparent;
+   color:black;
+    border: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(87, 129, 184.01);
+    
+}
+input:focus{
+    border: none;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+input:hover{
+    border: none;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+
+label .placeholder{
+    color: black;
+}
+
+.btnlog h3{
+    margin: 10px;
+    font-size: 15px;
+}
+.clickhere strong{
+    color:rgb(16, 75, 235) ;
+}
+.clickhere strong:hover{
+    color: rgb(28, 152, 201);
+    transition: 0.3s;
+}
+
+
+.passbox button{
+
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+}
+.passbox .adminbox{
+    margin-top: 20px;
+    color: rgb(16, 161, 161);
+}
+
+
+.container{
+
+
+    background-image: linear-gradient(75deg, rgba(156, 201, 252, 0.1),rgb(87, 129, 184.01));
+    color: aliceblue;
+
+    
+
+}
+
+.container{
+    margin-bottom: 10px;
+    padding: 20px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(116, 238, 197);
+
+
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+
+.container label{
+    width: 70px;
+    margin: 5px;
+
+}
+tbody button{
+    background: none;
+}
+
+
+
+ .btn1{
+    margin:10px 0 2px ;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(19, 18, 18);
+    background-color: rgb(235, 247, 247);
+}
+ .btn1 a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font: bold;
+}
+.btn1:active{
+    color: aliceblue;
+    background-color:rgba(156, 201, 252, 0.7);
+    box-shadow: 0px 0px 0px 1px rgba(156, 201, 252, 0.7) ;
+    
+
+}
+
+.row_mb-3 label{
+    color: rgb(228, 213, 213);
+}
+
+tbody th button{
+    color:red;
+}
+.showid{
+    
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    border:none;
+    border-bottom: 2px solid rgb(75, 248, 52);
+    
+}
+.cont_login{
+    position: relative;
+    margin: 10px;
+}
+
+.cont_login input{
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+}
+.place{
+    position: absolute;
+    left: 150px;
+    font-size: 14px;
+    color: grey;
+    pointer-events: none;
+    transition: 1s;
+}
+
+.tablelogin{
+    width: 700px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(228, 219, 143);
+}
+.tablelogin td{
+    padding-left: 15px;
+    color: black;
+    margin: 10px;
+    border: 3px solid rgb(104, 99, 99);
+}
+.tablelogin th{
+    margin: 10px;
+    border: 3px solid rgb(104, 99, 99);
+    color: black;
+    background-color: rgb(163, 197, 197);
+    padding-left: 15px;
+}
+/*edit box*/
+
+.edit_box{
+    display: flex;
+    background-color: rgb(228, 219, 143);
+    max-width: 700px;
+    margin:10px;
+    padding: 20px;
+
+}
+.edit_box input{
+    padding-left: 10px;
+    text-align: left;
+    height: 50px;
+    width: 500px;
+    border: none;
+    border-bottom: 3px solid rgb(104, 99, 99);
+}
+.edit_box label{
+    color: rgb(104, 99, 99);
+    width:50px ;
+    font-size: 20px;
+}
+.edit_box input:hover{
+    border-bottom: 3px solid black;
+}
+.btnprim:active{
+    transform: scale(95%);
+}
+
+/*service tab*/
+.mytabs input[type='radio']{
+    display: none;
+
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 50px;
+    
+
+}
+.mytabs input[type='radio'] + label{
+    height: 25px;
+    background-color:transparent;
+    border-bottom: 2px solid black;
+    border-width: 0;
+    width: 80px;
+   cursor: pointer;
+   text-align: center;
+   transition: 0.3s ease-in;
+
+    
+}
+.mytabs input[type='radio'] + label:hover{
+    border-bottom: 2px solid black;
+    border-width: 70%;   
+}
+
+.mytabs .tab{
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(241, 21, 21, 0.979);
+    background-color: aliceblue;
+    order: 1;
+    display: none;
+    margin-left:5px;
+    
+}
+.mytabs label{
+    margin: 5px;
+   
+        font-size: 20px;
+         cursor: pointer;
+}
+.mytabs input[type='radio']:checked + label + .tab{
+    display: block;
+
+}
+
+@keyframes btn {
+    100%{
+    box-shadow: 0px 0px 50px 20px rgba(112, 111, 211, 0) ;
+}
+}
+@media(max-width:700px){
+    tbody a{
+        font-size: 10px;
+        justify-content: space-between;
+        display: flex;
+    }
+        body{
+
+            background: url(corp.webp) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            
+        }    
+    .mt-4{
+        margin-right: px;
+        text-align: right;
+        font-size: 40px;
+    }
+}
